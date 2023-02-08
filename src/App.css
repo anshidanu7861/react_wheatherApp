@@ -1,0 +1,148 @@
+.App {
+  font-family: "Roboto", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.custom-shape-divider-bottom-1675097291 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1675097291 svg {
+  position: relative;
+  display: block;
+  width: calc(176% + 1.3px);
+  height: 240px;
+}
+
+.custom-shape-divider-bottom-1675097291 .shape-fill {
+  fill: #59D0DDA6;
+}
+
+
+
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(222, 220, 220, 0.382);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(24, 218, 221, 0.891);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.app_heading {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(30, 202, 229);
+}
+
+.weather-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.weather-data p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+p.error {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+/* hdfgd */
+.weather-card {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgba(0, 0, 0, 0.442);
+  color: rgba(255, 255, 255, 0.891);
+  background-color: rgb(65, 228, 209);
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+.card-header,
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.weather-temp {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.weather-details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.parameters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.param-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.param-val {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
